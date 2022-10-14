@@ -17,3 +17,21 @@
     padding: 80px; 
        
 }
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fec118;
+    padding: 5px;
+
+}
+
+.navbar a {
+    font-family:'Archivo', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    
+}
