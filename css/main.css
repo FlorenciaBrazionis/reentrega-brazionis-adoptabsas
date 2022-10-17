@@ -15,23 +15,19 @@
     font-size: 50px;
     background-color: #fec118;
     padding: 80px; 
+    display: grid;
+    justify-content: space-around;
        
 }
 
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     background-color: #fec118;
-    padding: 5px;
-
+    
 }
 
 .navbar a {
-    font-family:'Archivo', sans-serif;
-    font-size: 20px;
-    list-style: none;
-    text-decoration: none;
+    font-family:'Archivo', sans-serif; /* esta haciendo efecto */
+    font-size: 20px; /* esta haciendo efecto */
     color:white;
     
 }
