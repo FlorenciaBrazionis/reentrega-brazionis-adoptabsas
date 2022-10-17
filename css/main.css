@@ -26,8 +26,101 @@
 }
 
 .navbar a {
-    font-family:'Archivo', sans-serif; /* esta haciendo efecto */
-    font-size: 20px; /* esta haciendo efecto */
+    font-family:'Archivo', sans-serif;
+    font-size: 20px;
     color:white;
     
+}
+
+/* Edicion del index */ 
+.cuerpo {
+    display: flex;
+    color: black;
+    font-family:'Archivo', sans-serif;
+    font-weight: 10;
+    font-size: 20px;
+    font-style: light;
+    justify-content:center;
+    text-align:justify;
+    
+    
+}
+
+h3 {
+    padding: 20px;
+    font-family:'Archivo', sans-serif;
+    font-weight: 10;
+    font-size: 20px;
+    
+    
+}
+
+.formulario {
+    display: flex;
+    color: black;
+    font-family:'Archivo', sans-serif;
+    font-weight: 10;
+    font-size: 20px;
+    justify-content:center
+    
+}
+
+.titulo-body {
+    background-image: url("../multimedia/vista-lateral-perro-mirando-lejos-copia-espacio_23-2148326235.jpg");
+    display: flex;
+    color:#fec118;
+    justify-content: center;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
+    
+
+}
+
+h2 {
+    display: flex;
+    color:#fec118;
+    font-family:'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    justify-content:center;
+    
+}
+
+
+/* Edicion del index tamaño mobile*/
+
+@media screen and (max-width: 768px) {
+
+h2 {
+    font-style:normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.formulario {
+    font-size: 15px;
+
+    }
+    
+h3 {
+
+    font-size: 15px;
+}
+
+.titulo-header {
+    font-weight: 800;
+    font-size: 40px;
+    padding: 60px;
+    
+}
+
+.navbar a {
+    font-family:'Archivo', sans-serif;
+    font-size: 15px;
+}
+
 }
