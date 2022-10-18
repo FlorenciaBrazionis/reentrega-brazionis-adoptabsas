@@ -14,7 +14,7 @@
     font-weight: 800;
     font-size: 50px;
     background-color: #fec118;
-    padding: 80px; 
+    padding: 40px; 
     display: grid;
     justify-content: space-around;
        
@@ -88,9 +88,9 @@ h2 {
     background-image: url("../multimedia/vista-lateral-perro-mirando-lejos-copia-espacio_23-2148326235.jpg");
     display: flex;
     color:#fec118;
-    justify-content: center;
+    justify-content:center;
     background-attachment:fixed;
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15%;
@@ -127,47 +127,6 @@ h2 {
     color: #25D366;
 }
 
-/* Edicion del index tamaño mobile*/
-
-@media screen and (max-width: 768px) {
-
-h2 {
-    font-style:normal;
-    font-weight: 400;
-    font-size: 30px;
-}
-
-.formulario {
-    font-size: 15px;
-
-}
-    
-h3 {
-
-    font-size: 15px;
-}
-
-.titulo-header {
-    font-weight: 800;
-    font-size: 35px;
-    padding: 20px;
-    
-}
-
-.navbar a {
-    font-family:'Archivo', sans-serif;
-    font-size: 15px;
-}
-
-
-.link {
-    font-size: 15px;
-
-}
-
-
-}
-
 
 
 /* estilo caba */
@@ -179,8 +138,6 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: top 0;
-    margin: bottom 0;
     padding: 15%;
 
 }
@@ -200,11 +157,6 @@ h3 {
 .link-caba a {
     color: black;
     text-decoration: none;
-    /*display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin-left: 5%;*/
-    
 
 }
 
@@ -214,8 +166,6 @@ h3 {
     font-style: light;
     font-weight: 10;
     font-size: 20px;
-    /*margin-top: 5%;
-    margin-bottom: 5%;*/
 
 }
 
@@ -232,8 +182,6 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: top 0;
-    margin: bottom 0;
     padding: 15%;
 }
 
@@ -252,11 +200,6 @@ h3 {
 .link-norte a {
     color: black;
     text-decoration: none;
-    /*display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin-left: 5%;*/
-    
 
 }
 
@@ -265,47 +208,27 @@ h3 {
     font-family:'Archivo', sans-serif;
     font-style: light;
     font-weight: 10;
-    font-size: 20px;
-    /*margin-top: 5%;
-    margin-bottom: 5%;*/
-    
+    font-size: 20px;    
 
 }
 
 
 /* estilo oeste */
 .titulo-oeste {
-    background-image: url("../multimedia/perro-cachorro-feliz-sonriendo-sobre-fondo-purpura-aislado_77749-593.jpg");
+    background-image: url("../multimedia/perro-sonriente-feliz-que-toma-autorretrato-playa_145134-352.jpg");
     justify-content: center;
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: top 0;
-    margin: bottom 0;
     padding: 15%;
 }
 
-.imagen-oeste {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top:10px; 
-    margin-bottom:50px;
-}
 
 .link-oeste a {
     color: black;
     text-decoration: none;
-    /*display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin-left: 5%;*/
-    
+  
 
 }
 
@@ -315,9 +238,7 @@ h3 {
     font-style: light;
     font-weight: 10;
     font-size: 20px;
-    /*margin-top: 5%;
-    margin-bottom: 5%;*/
-    
+
 
 }
 
@@ -330,31 +251,13 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: top 0;
-    margin: bottom 0;
-    padding: 15%;
+    padding: 15%
 }
 
-.imagen-sur {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top:10px; 
-    margin-bottom:50px;
-}
 
 .link-sur a {
     color: black;
     text-decoration: none;
-    /*display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin-left: 5%;*/
-    
 
 }
 
@@ -364,17 +267,13 @@ h3 {
     font-style: light;
     font-weight: 10;
     font-size: 20px;
-    /*margin-top: 5%;
-    margin-bottom: 5%;*/
-    
+
 
 }
 
 
 
 /* probando grids*/
-
-
 
 @media screen and (max-width: 768px) {
     
@@ -413,4 +312,85 @@ h3 {
     }
 
 
+}
+
+/* Edicion del index tamaño mobile*/
+
+@media screen and (max-width: 768px) {
+
+    h2 {
+        font-style:normal;
+        font-weight: 300;
+        font-size: 30px;
+    }
+    
+    .formulario {
+        font-size: 15px;
+    
+    }
+        
+    h3 {
+    
+        font-size: 15px;
+    }
+    
+    .titulo-header {
+        font-weight: 800;
+        font-size: 35px;
+        padding: 20px;
+        
+    }
+    
+    .navbar a {
+        font-family:'Archivo', sans-serif;
+        font-size: 15px;
+    }
+    
+    
+    .link {
+        font-size: 15px;
+    
+    }
+    
+        }
+
+@media screen and (max-width: 768px) {
+    
+    .titulo-caba {
+        background-attachment: scroll;
+        background-size:cover;
+        padding: 12%;
+        color: white;
+        
+    }
+    
+    .titulo-norte {
+        background-attachment: scroll;
+        background-size:cover;
+        padding: 12%;
+        color: white;
+    }
+    
+    .titulo-oeste {
+        background-attachment: scroll;
+        background-size:cover;
+        padding: 12%;
+        color: white;
+    }
+    
+    .titulo-sur {
+        background-attachment: scroll;
+        background-size:cover;
+        padding: 12%;
+        color: white;
+        
+    }
+
+    .titulo-body {
+        background-attachment: scroll;
+        background-size:cover;
+        color: white;
+    }
+    
+    
 }
