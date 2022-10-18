@@ -57,15 +57,32 @@ h3 {
 
 .formulario {
     display: flex;
+    flex-direction: row;
+    justify-content:center;
     color: black;
     font-family:'Archivo', sans-serif;
     font-weight: 10;
     font-size: 20px;
-    justify-content:center
-    
+
 }
 
 
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    color:#fec118;
+    font-family:'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;    
+    
+}
+
+.foto {
+    display: grid;
+    grid-area: foto;
+}
 
 .titulo-body {
     background-image: url("../multimedia/vista-lateral-perro-mirando-lejos-copia-espacio_23-2148326235.jpg");
@@ -79,18 +96,6 @@ h3 {
     padding: 15%;
 
 }
-
-h2 {
-    display: flex;
-    color:#fec118;
-    font-family:'Archivo', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    justify-content:center;
-    
-}
-
 
 .footer {
     display: flex;
@@ -361,5 +366,50 @@ h3 {
     margin-top: 5%;
     margin-bottom: 5%;
     
+
+}
+
+
+
+/* probando grids*/
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+      grid-gap: 5px;
+      grid-auto-rows: 90px;
+      grid-template-areas:
+      
+        "a b"
+        "a b"
+        "a b"
+        "a b"
+        "a b"
+        "c c"
+        "c c"
+        "c c"
+        "c c";       
+         
+        align-items: start;
+    
+    }
+    
+    .item1 {
+        grid-area: a;
+    }
+    
+    .item2 {
+        grid-area: b;
+    }
+
+    .item3 {
+        grid-area: c;
+    }
+
 
 }
